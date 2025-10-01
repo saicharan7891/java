@@ -12,7 +12,7 @@ public class IncDecDemo {
    int b = ++a + ++y + z--;
    System.out.println(b + " " + a + " " + x + " " + " " + y + " " + z);
    
-   int c = a + b++ + x + y++;
+   int c = a + b + ++x + y++;
    System.out.println(c + " " + a + " " + x + " " + y + " " + z);
 	
 	}
