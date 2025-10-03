@@ -3,7 +3,7 @@ package com.shristi.training;
 public class Typecasting {
 
 	public static void main(String[] args) {
-        float g=12.5f;
+      //  float g=12.5f;
         byte b=100;
         int x=b*2; //Upcasting
         long y=x+2; //Upcasting
