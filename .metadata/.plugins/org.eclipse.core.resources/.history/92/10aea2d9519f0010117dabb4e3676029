@@ -1,0 +1,22 @@
+package com.shristi.training;
+
+public class SwitchDemo {
+
+	public static void main(String[] args) {
+		String choice = "reade";
+        switch (choice.toUpperCase()) {
+            case "READ":
+                System.out.println("Reading a file");
+                break;
+            case "WRITE":
+                System.out.println("Writing a file");
+                break;
+            case "EXECUTE":
+                System.out.println("Executing a file");
+                break;
+            default:
+                System.out.println("wrong choice");
+    }
+    }
+	}
+

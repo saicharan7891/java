@@ -1,0 +1,13 @@
+package com.shristi.training;
+
+public class IfElseDemo {
+
+	public static void main(String[] args) {
+		  String name = "Sri";
+	        if (name.equals("Sri")) {
+	        	System.out.println("Welcome " + name);
+	        } else {
+	        	System.out.println("wrong username");
+	        }
+		}
+}
